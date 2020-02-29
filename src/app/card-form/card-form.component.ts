@@ -30,14 +30,13 @@ export class CardFormComponent implements OnInit {
     });
 
     constructor() {
-        console.log(this.cardForm);
     }
 
     ngOnInit() {
     }
 
     onSubmit() {
-        console.log('form submitted');
+        alert('form submitted');
     }
 
     onResetClick() {
